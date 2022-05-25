@@ -31,8 +31,8 @@ $('.payment-button').on('click', function() {
     var price = $this.data('mzPrice');
     var title = $this.data('mzTitle');
 
-    $modal.find('.item-description').text('РђРєС‚РёРІР°С†РёСЏ РЅР° ' + title);
-    $modal.find(".item-amount").text(price + ' СЂСѓР±.');
+    $modal.find('.item-description').text('Активация на ' + title);
+    $modal.find(".item-amount").text(price + ' руб.');
     $("input[name=type]").val(type);
 
     $(".input-label").hide();
@@ -59,7 +59,7 @@ $('#payment-form').submit(function(e) {
             $btn.attr('disabled', false);
         },
         error: function(e) {
-            alert('РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°!');
+            alert('Произошла ошибка!');
             $btn.attr('disabled', false);
             console.error('Error:', e);
         }
