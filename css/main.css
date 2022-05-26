@@ -1209,6 +1209,15 @@ footer a {    color: #ffffff;
     color: #fff;
 }
 
+.modal-heading2 {
+    font-family: "Proxima Nova - Semibold";
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #black;
+}
+
 .modal-title {
     font-family: "Proxima Nova - Semibold";
     font-weight: 500;
