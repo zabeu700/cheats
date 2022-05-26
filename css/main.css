@@ -989,7 +989,7 @@ body {
 .faq_out .contacts .item a:hover,  .item.chat:hover {text-decoration: underline;}
 
 .faq_out .contacts .item.chat {
-    background: url(../assets/images/chat.png) no-repeat top 15px left calc(50% + 74px), url(../assets/images/item_bg.png) no-repeat center;
+    background: url(../assets/images/chat.png) no-repeat top 15px left calc(50% + 155px), url(../assets/images/item_bg.png) no-repeat center;
 }
 
 .faq_out .contacts .item.mail {
